@@ -1,0 +1,494 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  background-image: url("../Images/background-01.jpg");
+}
+
+/**** footer ****/
+footer {
+  background: #171c24;
+  position:absolute;
+  bottom:0;
+  width:100%;
+  padding-top:50px;
+  height:50px;
+}
+
+/*****************************************************/
+/*Acceuil carousel*/
+body .acceuil{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: grid;
+  height: 100%;
+  place-items: center;
+  text-align: center;
+}
+h1{
+  font-family: Arial;
+  font-size: 25px;
+  left: 10%;
+}
+.slider{
+  max-width: 1100px;
+  display: flex;
+  left: 25%;
+  margin-top: 10%;
+}
+.slider .card{
+  flex: 1;
+  margin: 0 10px;
+  background: #fff;
+  justify-content: center;
+}
+.slider .card .img_acceuil{
+  height: 300px;
+  width: 100%;
+}
+.slider .card .img_acceuil img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.slider .card .content{
+  padding: 10px 20px;
+}
+.card .content .title{
+  font-size: 25px;
+  font-weight: 600;
+}
+.card .content .sub-title{
+  font-size: 20px;
+  font-weight: 600;
+  color: #DF580C;
+  line-height: 20px;
+}
+.card .content p{
+  text-align: justify;
+  margin: 10px 0;
+}
+.card .content .btn{
+  display: block;
+  text-align: left;
+  margin: 10px 0;
+}
+.card .content .btn button{
+  background: #DF580C;;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.card .content .btn button:hover{
+  transform: scale(0.9);
+}
+/*********************************************/
+/*Jeux*/
+
+/*Tableau*/
+Table {
+  width: 1150px;
+  border-radius: 10px;
+  margin-left: 35%;
+  margin-top: 2%;
+  background-color: white;
+}
+.Tb_Lv1{
+  box-shadow: 0px 4px 15px rgba(179, 2, 30, 1);
+}
+.Tb_Lv2{
+  box-shadow: 0px 4px 15px rgba(246, 90, 30, 1);
+}
+.Tb_Lv3{
+  box-shadow: 0px 4px 15px rgba(91, 173, 46, 1);
+}
+td{
+  text-align: center;
+}
+
+.Img_Jeu{
+  width: 200px;
+}
+
+.btn_jeux{
+  display: block;
+  text-align: center;
+  margin: 10px 0;
+}
+.btn_jeux .button_jeux{
+  background: #DF580C;;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+/*Texte*/
+h1{
+    font-family: "Arial";
+    font-size: 30px;
+    margin-left: 5%;
+}
+p{
+    font-family: "Arial";
+}
+.p1{
+  color: #17202a;
+  font-size: 18px;
+  font-weight: bold;
+}
+.Lv1{
+  color: #c00000 ;
+  font-size: 18px;
+  font-weight: bold;
+}
+.Lv2{
+  color: #ed7d31;
+  font-size: 18px;
+  font-weight: bold;
+}
+.Lv3{
+  color: #70ad47;
+  font-size: 18px;
+  font-weight: bold;
+}
+.p3{
+  color: #17202a;
+  font-size: 14px;
+ }
+
+/*Pagination*/
+header{
+	text-align:center;
+	padding:20px;
+	background-color:#EEE;
+	color:#000;
+}
+#pagination{
+	padding:10px;
+  margin-left: 52%;
+  margin-top: 2%;
+}
+#pagination>a{
+	display:inline-block;
+	width:26px;
+	padding:6px;
+	border:solid 1px #F80;
+	background-color:#FF3D00;
+	text-align:center;
+	text-decoration:none;
+	color:#FFF;
+}
+#pagination>a .prec_suiv{
+  width:36px;
+}
+#pagination>a[href]{
+	background-color:#FFF;
+	border:solid 1px #F80;
+	color:#F80;
+}
+#pagination>a[href]:hover{
+	background-color:#F8F8F8;
+}
+
+#cont>div{
+	padding:10px;
+	margin:6px 0;
+	border:solid 1px #AAA;
+	border-left:solid 6px #AAA;
+	color:#000;
+}
+/********************************************/
+/*Recherche*/
+.div_Recherche {
+  width: 50%;
+  margin-top: 10px;
+  text-align: center;
+}
+.p_Res  {
+  font-family: "Arial";
+  font-size: 20px;
+}
+/*******************************************/
+/*Article*/
+.contenu {
+  width: 80%;
+  border: 1px solid black;
+  background-color: #fff;
+  margin-left: 10%;
+}
+header {
+  text-align: center;
+}
+h2{
+  font-size: 36px;
+  font-weight: bold;
+}
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+.pa {
+  font-size: 18px;
+}
+.Logo_Jeu {
+  width: 500px;
+  height: 250px;
+}
+.Img_Ils {
+  width: 1000px;
+  height: 500px;
+}
+.Img_Com {
+  position: relative;
+  margin-left: 60%;
+  width: 1000px;
+  height: 500px;
+}
+.table_Art {
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.5);
+  background-color:#fff;
+
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 1%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.td_Art {
+  text-align: justify;
+  padding : 2% 5%;
+}
+/******************************************/
+/*A propos*/
+.info{
+ width: 80%;
+ font-family: "Arial";
+ margin-left: 30%;
+}
+/*Textes*/
+h1{
+    font-family: "Arial";
+    font-size: 25px;
+    text-align: center;
+}
+
+span{
+  font-weight: bold;
+}
+.Lv1{
+  color: #c00000 ;
+}
+.Lv2{
+  color: #FF3D00;
+}
+.Lv3{
+  color: #70ad47;
+}
+/*****/
+.info img {
+  margin-bottom: 1%;
+}
+.img_info {
+  width:800px;
+  height:250px;
+  margin-left: 10%;
+}
+.img_info2 {
+  width:250px;
+  height:200px;
+  margin-left: 20%;
+
+}
+/******************************************/
+/*Contact*/
+.bc {
+  background-image: url("../Images/photo-01.jpg");
+  background-size: cover;
+}
+/*div*/
+.div_contact {
+  width: 100%;
+}
+.container_contact {
+  width: 40%;
+  margin-left: 28%;
+  margin-top: 16%;
+
+  background-color: white;
+}
+.form_groupe {
+  margin-top:18%;
+}
+.form_info{
+  margin: 10px 50px;
+}
+/*Textes*/
+
+label {
+  font-family: "Arial";
+  font-size: 18px;
+}
+
+/* * */
+.form_groupe input {
+  height: 20px;
+  width: 200px;
+  border-radius: 5px;
+}
+textarea {
+  height: 100px;
+  width: 500px;
+  border-radius: 10px;
+}
+
+.button_contact{
+  background: #DF580C;;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+
+  margin-left: 50px;
+}
+/***********************************************/
+/*Erreur*/
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.body_error {
+  background-image: url("../Images/photo-04.jpg");
+  background-size: cover;
+  height: 100%;
+}
+/*Div*/
+.error_page  {
+  width: 50%;
+  margin-left: 30%;
+  margin-top: 20%;
+  padding-top: 0.5%;
+
+  background-color: rgba(0,  0, 0, 0.2);
+}
+.content_error  {
+  text-align: center;
+}
+/*Textes*/
+.h1_error, .h4_error, .p_error, .p2_error, .a_acceuil {
+  font-family: 'Press Start 2P', cursive;
+}
+.h1_error {
+  font-size: 100px;
+}
+.h4_error {
+  font-size: 40px;
+}
+.p_error, .p2_error {
+  font-size: 20px;
+}
+.a_acceuil {
+  font-size: 14px;
+  text-decoration: none;
+  color: #2190ff;
+}
+.a_acceuil:hover {
+  color: #E33CFF;
+}
+.h1_error, .p_error {
+  background-color: #4a14c1;
+  background-image: linear-gradient(0deg, #4a14c1 0%, #2190ff 50%, #552492 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+.h4_error, .p2_error {
+  background-color: #2168fd;
+  background-image: linear-gradient(19deg, #2168fd 0%, #ea21ff 50%, #922431 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+/********************************************/
+/*Responsive Design*/
+
+/*
+Mobile : 360 x 640
+Mobile:  375 x 667
+Mobile : 360 x 720
+iPhone X : 375 x 812
+Pixel 2 : 411 x 731
+Ordinateur portable : 1366 x 768
+*/
+
+/*******************************************/
+
+/*Ordinateur portable ou de bureau haute résolution : 1920 x 1080*/
+@media screen and (min-width: 1920px) {
+
+  /******************************************/
+
+  /******************************************/
+
+
+/*Ordinateur portable : 1366 x 768*/
+@media screen and (min-width: 1366px) {
+
+
+/*Tablette : 768 x 1024*/
+@media screen and (min-width: 768px) {
+}
+/*Mobile : 360 x 640*/
+@media screen and (min-width: 360px) {
+
+  /******************************************/
+
+
+  /****************************************/
+  /*Erreur*/
+  .body_error {
+    background-size: cover;
+    height: 100%;
+  }
+  /*Div*/
+  .error_page  {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20%;
+    padding-top: 0.5%;
+    background-color: rgba(0,  0, 0, 0.5);
+  }
+  .content_error  {
+    text-align: center;
+  }
+  /*Textes*/
+  .h1_error {
+    font-size: 100px;
+  }
+  .h4_error {
+    font-size: 40px;
+  }
+  .p_error, .p2_error {
+    font-size: 30px;
+  }
+  .a_acceuil {
+    font-size: 30px;
+    text-decoration: none;
+    color: #2190ff;
+  }
+  /****************************************/
+}
